@@ -105,12 +105,12 @@ button {
 /* ---------------------------------HERO--------------------------- */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
