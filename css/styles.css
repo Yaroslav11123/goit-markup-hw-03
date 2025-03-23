@@ -289,6 +289,11 @@ button {
 /* ---------------------------------FOOTER--------------------------- */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -298,6 +303,8 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   font-weight: 700;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-accent {
   color: #f4f4fd;
@@ -307,5 +314,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 /* ---------------------------------FOOTER--------------------------- */
