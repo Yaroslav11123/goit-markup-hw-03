@@ -190,6 +190,12 @@ button {
 /* ---------------------------------TEAM--------------------------- */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.team-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .team-title {
   font-size: 36px;
@@ -198,12 +204,16 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
-  background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-item-title {
   font-weight: 500;
@@ -212,6 +222,8 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding: 32px 0 0 0;
+  margin-bottom: 8px;
 }
 .team-item-text {
   font-size: 16px;
@@ -219,6 +231,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 32px;
 }
 /* ---------------------------------TEAM--------------------------- */
 
