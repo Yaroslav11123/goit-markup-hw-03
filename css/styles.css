@@ -197,6 +197,9 @@ button {
   align-items: center;
   flex-direction: column;
 }
+.team-item-container {
+  padding: 32px 0;
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -222,7 +225,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding: 32px 0 0 0;
   margin-bottom: 8px;
 }
 .team-item-text {
@@ -231,7 +233,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 32px;
 }
 /* ---------------------------------TEAM--------------------------- */
 
