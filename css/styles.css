@@ -21,6 +21,9 @@ li {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 
 button {
   cursor: pointer;
@@ -142,6 +145,8 @@ button {
 /* ---------------------------------HERO--------------------------- */
 
 /* ---------------------------------ABOUT--------------------------- */
+.visually-hidden {
+}
 .about {
   padding: 120px 0;
 }
@@ -152,7 +157,7 @@ button {
 .about-list {
   display: flex;
   gap: 24px;
-  width: calc(100% - 72px) / 3;
+  width: calc(100% - 72px) / 4;
 }
 .about-title {
   font-weight: 500;
