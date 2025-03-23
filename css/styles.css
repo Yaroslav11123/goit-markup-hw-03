@@ -142,12 +142,25 @@ button {
 /* ---------------------------------HERO--------------------------- */
 
 /* ---------------------------------ABOUT--------------------------- */
+.about {
+  padding: 120px 0;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+}
+.about-list {
+  display: flex;
+  gap: 24px;
+  width: calc(100% - 72px) / 3;
+}
 .about-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .about-text {
   font-size: 16px;
